@@ -8,7 +8,7 @@ make sure you have node and mongodb installed on your system.
     node server
     this we run application on port 3500
 
-3-  you will see home page of application where you can add feed and view them by simply by navigating
+3-  you will see home page of application where you can add feed and view them by  navigating simply
 4- for navigating to admin page simply use 
    email : test@test
    password : test
