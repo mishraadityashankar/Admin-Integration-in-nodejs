@@ -1,0 +1,31 @@
+doctype html
+head
+  title admin integration
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+  link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css')
+  script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js')
+  script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js')
+  style.
+    .fakeimg {
+    height: 200px;
+    background: #aaa;
+    }
+.jumbotron.text-center(style='margin-bottom:0')
+  h1 Admin integration
+  p using nodejs and mongodb
+.container
+nav.navbar.navbar-expand-sm.bg-dark.navbar-dark
+  ul.navbar-nav
+    li.nav-item.active
+      a.nav-link(href='http://localhost:3500/') Home
+    li.nav-item
+     
+        a.nav-link(href='http://localhost:3500/getfeed') show feeds
+    li.nav-item
+      a.nav-link(href='http://localhost:3500/addfeed') add feed
+    li.nav-item
+      a.nav-link(href='http://localhost:3500/admin') admin
+.container-fluid
+  p this is the home page of the application
