@@ -2,7 +2,7 @@
 admin integration in nodejs using mongodb pug and adminbro
 
 make sure you have node and mongodb installed on your system.
-  1- install all the dependenciesby typing following commands in terminal
+  1- install all the dependencies by typing following commands in terminal
    npm init && npm install
   2- to run the application type 
     node server
